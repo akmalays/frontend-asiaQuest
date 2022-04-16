@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "../components/header";
+import AddressHeader from "../components/addressHeader";
 
 function Mainroute() {
   return (
     <div>
-      <Header />
+      <AddressHeader />
     </div>
   );
 }
