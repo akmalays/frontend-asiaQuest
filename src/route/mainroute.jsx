@@ -1,10 +1,12 @@
 import React from "react";
-import AddressHeader from "../components/addressHeader";
+import UpHeader from "../components/upHeader";
+import BottomHeader from "../components/bottomHeader";
 
 function Mainroute() {
   return (
-    <div>
-      <AddressHeader />
+    <div className="">
+      <UpHeader />
+      <BottomHeader />
     </div>
   );
 }
