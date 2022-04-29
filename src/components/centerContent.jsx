@@ -1,19 +1,22 @@
 import React from "react";
 
-function dateHeader() {
+function CenterContent() {
   return (
-    <div>
-      <div className="flex gap-1 flex-wrap">
-        <div
-          className="grid hover:bg-gray-700 hover:text-white hover:px-2 hover:py-2
-        hover:rounded-full"
-        >
-          <p className="font-light"> SEN</p>
-          <p className="font-bold"> 10</p>
-        </div>
+    <div className="py-5">
+      {/* top section */}
+      <div className="flex justify-center pb-5">
+        <p className="font-bold text-lg">
+          {" "}
+          keuntungan mendaftar{" "}
+          <span className="text-blue-900"> AXA life Indonesia </span> di
+          Pilihkartu
+        </p>
+      </div>
+      <div className="flex justify-center">
+        <div className="flex "></div>
       </div>
     </div>
   );
 }
 
-export default dateHeader;
+export default CenterContent;

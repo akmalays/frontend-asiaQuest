@@ -1,7 +1,7 @@
 import React from "react";
 import { MdOutlineArrowBackIosNew } from "react-icons/md";
 
-function upHeader() {
+function UpHeader() {
   return (
     <div>
       <section>
@@ -20,4 +20,4 @@ function upHeader() {
   );
 }
 
-export default upHeader;
+export default UpHeader;

@@ -1,6 +1,6 @@
 import React from "react";
 
-function dateHeader() {
+function BottomContent() {
   return (
     <div>
       <div className="flex gap-1 flex-wrap">
@@ -16,4 +16,4 @@ function dateHeader() {
   );
 }
 
-export default dateHeader;
+export default BottomContent;
